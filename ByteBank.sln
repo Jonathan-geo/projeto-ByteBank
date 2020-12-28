@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteBankExceptions", "ByteB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteBankSistem", "ByteBankSistem\ByteBankSistem.csproj", "{FB4BEB3A-3986-42CC-A0DE-4CD1C982DD69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaAgencia", "SistemaAgencia\SistemaAgencia.csproj", "{94750FC7-B4EB-449B-886D-8C04FFCBC5B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteBank.Modelos", "ByteBank.Modelos\ByteBank.Modelos.csproj", "{1F70BD4D-1F5D-4961-AB4B-81F33A9ADEA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{FB4BEB3A-3986-42CC-A0DE-4CD1C982DD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB4BEB3A-3986-42CC-A0DE-4CD1C982DD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB4BEB3A-3986-42CC-A0DE-4CD1C982DD69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94750FC7-B4EB-449B-886D-8C04FFCBC5B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94750FC7-B4EB-449B-886D-8C04FFCBC5B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94750FC7-B4EB-449B-886D-8C04FFCBC5B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94750FC7-B4EB-449B-886D-8C04FFCBC5B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F70BD4D-1F5D-4961-AB4B-81F33A9ADEA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F70BD4D-1F5D-4961-AB4B-81F33A9ADEA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F70BD4D-1F5D-4961-AB4B-81F33A9ADEA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F70BD4D-1F5D-4961-AB4B-81F33A9ADEA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
