@@ -13,8 +13,16 @@ namespace _07_ByteBank
         //CHAMADA MAIN
         static void Main(string[] args)
         {
+            try
+            {
+                CarregarContas();
+            }
+            catch(Exception)
+            {
+                Console.WriteLine("CATCH NO METODO MAIN");
+            }
 
-            CarregarContas();
+            
 
             Console.WriteLine("Pressione a tecla enter para sair");
             Console.ReadLine();
@@ -25,28 +33,35 @@ namespace _07_ByteBank
 
         private static void CarregarContas()
         {
-            LeitorDeArquivo leitor = null;
 
-            try
+            using(LeitorDeArquivo leitor = new LeitorDeArquivo("teste.txt"))
             {
-                leitor = new LeitorDeArquivo("contas.txt");
                 leitor.LerProximaLinha();
-                leitor.LerProximaLinha();
+            }
 
-            }
-            catch(IOException)
-            {
+
+
+            //----------------------------------------------
+
+
+            //LeitorDeArquivo leitor = null;
+
+            //try
+            //{
+            //    leitor = new LeitorDeArquivo("contas.txt");
+            //    leitor.LerProximaLinha();
+            //    leitor.LerProximaLinha();
+
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("Executando o Finally!");
+            //    if(leitor != null)
+            //    {
+            //        leitor.Fechar();
+            //    }
                 
-                Console.WriteLine("Exceção do tipo IOException capturada e tratada!");
-            }
-            finally
-            {
-                if(leitor != null)
-                {
-                    leitor.Fechar();
-                }
-                
-            }
+            //}
 
         }
 

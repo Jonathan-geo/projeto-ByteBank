@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace _07_ByteBank
 {
-    public class LeitorDeArquivo
+    public class LeitorDeArquivo : IDisposable
     {
         public string Arquivo { get; }
 
