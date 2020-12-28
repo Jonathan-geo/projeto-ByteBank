@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{94750FC7-B4EB-449B-886D-8C04FFCBC5B1}</ProjectGuid>
+    <ProjectGuid>{2C9C301E-5B56-4195-8662-30C84E970EC8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SistemaAgencia</RootNamespace>
-    <AssemblyName>SistemaAgencia</AssemblyName>
+    <RootNamespace>ByteBank.SistemaAgencia</RootNamespace>
+    <AssemblyName>ByteBank.SistemaAgencia</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Estagiario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -51,7 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ByteBank.Modelos\ByteBank.Modelos.csproj">
-      <Project>{1f70bd4d-1f5d-4961-ab4b-81f33a9adea8}</Project>
+      <Project>{c2175f0d-7024-465e-947f-c0fb51887a9c}</Project>
       <Name>ByteBank.Modelos</Name>
     </ProjectReference>
   </ItemGroup>
