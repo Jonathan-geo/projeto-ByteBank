@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteBankExceptions", "07-ByteBank\ByteBankExceptions.csproj", "{1F0C550D-1F9F-4A59-B7BD-545189B8A7E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteBankExceptions", "ByteBankExceptions\ByteBankExceptions.csproj", "{1F0C550D-1F9F-4A59-B7BD-545189B8A7E2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteBankSistem", "ByteBankSistem\ByteBankSistem.csproj", "{FB4BEB3A-3986-42CC-A0DE-4CD1C982DD69}"
 EndProject
